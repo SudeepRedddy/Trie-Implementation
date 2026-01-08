@@ -1,5 +1,4 @@
 import java.io.File;
-import java.util.Scanner;
 import java.util.*;
 class Trie{
     Trie ch[];
@@ -12,7 +11,7 @@ class Trie{
     }
 }
 class myclass{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(new File("input.txt"));
         System.out.println("Enter No. of Operations : \n");
         int n = sc.nextInt();
