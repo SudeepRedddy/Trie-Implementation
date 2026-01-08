@@ -12,7 +12,7 @@ class Trie{
 }
 class myclass{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(new File("input.txt"));
         System.out.println("Enter No. of Operations : \n");
         int n = sc.nextInt();
         System.out.println("1 : Insert to  Trie\n");
